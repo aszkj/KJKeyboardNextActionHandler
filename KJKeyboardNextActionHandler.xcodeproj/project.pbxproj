@@ -15,6 +15,7 @@
 		8D8591CC1EB2A53800156B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8591CA1EB2A53800156B28 /* LaunchScreen.storyboard */; };
 		8D8591D71EB2A53800156B28 /* KJKeyboardNextActionHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591D61EB2A53800156B28 /* KJKeyboardNextActionHandlerTests.m */; };
 		8D8591E21EB2A53800156B28 /* KJKeyboardNextActionHandlerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591E11EB2A53800156B28 /* KJKeyboardNextActionHandlerUITests.m */; };
+		8D8591F11EB2A55700156B28 /* KJKeyboardNextActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591F01EB2A55700156B28 /* KJKeyboardNextActionHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8D8591DD1EB2A53800156B28 /* KJKeyboardNextActionHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJKeyboardNextActionHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8591E11EB2A53800156B28 /* KJKeyboardNextActionHandlerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJKeyboardNextActionHandlerUITests.m; sourceTree = "<group>"; };
 		8D8591E31EB2A53800156B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D8591EF1EB2A55700156B28 /* KJKeyboardNextActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJKeyboardNextActionHandler.h; sourceTree = "<group>"; };
+		8D8591F01EB2A55700156B28 /* KJKeyboardNextActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJKeyboardNextActionHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		8D8591BB1EB2A53800156B28 /* KJKeyboardNextActionHandler */ = {
 			isa = PBXGroup;
 			children = (
+				8D8591EF1EB2A55700156B28 /* KJKeyboardNextActionHandler.h */,
+				8D8591F01EB2A55700156B28 /* KJKeyboardNextActionHandler.m */,
 				8D8591BF1EB2A53800156B28 /* AppDelegate.h */,
 				8D8591C01EB2A53800156B28 /* AppDelegate.m */,
 				8D8591C21EB2A53800156B28 /* ViewController.h */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					8D8591B81EB2A53800156B28 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LLKYVL766D;
 						ProvisioningStyle = Automatic;
 					};
 					8D8591D11EB2A53800156B28 = {
@@ -274,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D8591C41EB2A53800156B28 /* ViewController.m in Sources */,
+				8D8591F11EB2A55700156B28 /* KJKeyboardNextActionHandler.m in Sources */,
 				8D8591C11EB2A53800156B28 /* AppDelegate.m in Sources */,
 				8D8591BE1EB2A53800156B28 /* main.m in Sources */,
 			);
@@ -424,9 +431,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LLKYVL766D;
 				INFOPLIST_FILE = KJKeyboardNextActionHandler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yilidibkd.com.KJKeyboardNextActionHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yldbkd.www.buyer.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -435,9 +443,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LLKYVL766D;
 				INFOPLIST_FILE = KJKeyboardNextActionHandler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yilidibkd.com.KJKeyboardNextActionHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yldbkd.www.buyer.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
